@@ -1,0 +1,144 @@
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.container__left-svg {
+	padding-top: 180px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	padding-top: 60px;
+	padding-left: 44px;
+
+}
+
+.form__header {
+	margin-bottom: 12px;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 32px;
+	color: #0E4A67;
+}
+
+.form__subtitle {
+	margin-bottom: 17px;
+	font-size: 12px;
+	line-height: 17px;
+	letter-spacing: 0.35px;
+	color: #37677E;
+}
+
+.form__subtitle a {
+	color: #FE904B;
+}
+
+.input-data {
+	position: relative;
+	margin-top: 9px;
+}
+
+.input-data__name {
+	font-size: 12px;
+	line-height: 22px;
+	color: #207198;
+}
+
+.input-data__input-box {
+	width: 336px;
+	height: 44px;
+	padding: 8px;
+	border: 2px solid #207198;
+	border-radius: 9px;
+}
+
+.input-data__input-box_register {
+	border: 2px solid #6FCF97;
+}
+
+.input-data__show-password {
+	position: absolute;
+	left: 315px;
+	top: 40px;
+}
+
+.btn-login {
+	margin-top: 19px;
+	width: 336px;
+	height: 44px;
+	background: linear-gradient(271.15deg, #FE904B 7.64%, #FB724C 90.68%), #EE5757;
+	backdrop-filter: blur(1.43578px);
+	border-radius: 9px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.form__forgot-password {
+	margin-top: 6px;
+	font-size: 12px;
+	line-height: 17px;
+	letter-spacing: 0.35px;
+	color: #207198;
+}
+
+.form__or {
+	position: relative;
+	margin: 12px 0;
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	color: #0E4A67;
+}
+
+.form__or:before {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 76px;
+	background: #0E4A67;
+	left: 50px;
+	top: 10px;
+}
+
+.form__or:after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 76px;
+	background: #0E4A67;
+	right: 50px;
+	top: 10px;
+}
+
+.btn-login-with {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 18px;
+	width: 336px;
+	height: 44px;
+	background: #E3F1FE;
+	border: 2px solid #207198;
+	backdrop-filter: blur(1.43578px);
+	border-radius: 9px;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	color: #207198;
+}
+
+.btn-login-with__img {
+	margin-right: 20px;
+}
